@@ -1,1 +1,14 @@
 // Mixins Here
+.flex-layout (@justify) {
+    display: flex;
+    justify-content: @justify;
+}
+
+.display-none(@none){
+    display: @none;
+}
+
+.text(@fontsize, @textdecoration){
+    font-size: @fontsize;
+    text-decoration: @textdecoration;
+}
